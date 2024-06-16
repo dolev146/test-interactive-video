@@ -4,6 +4,10 @@ you also need to have git on your system to clone this project if you are using 
 https://www.git-scm.com/downloads
 ![image](https://github.com/dolev146/test-interactive-video/assets/62290677/f1da67d9-cb69-400d-b2a9-b00a6ffa1d26)
 
+then clone the repository by opening a terminal and in the terminal run 
+```
+git clone https://github.com/dolev146/test-interactive-video.git
+```
 
 make sure you have nodejs installed on your system, atleast version 20
 if not download from
