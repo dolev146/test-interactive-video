@@ -33,7 +33,15 @@ https://nodejs.org/en/download/prebuilt-installer
 ![image](https://github.com/dolev146/test-interactive-video/assets/62290677/e2cdaeb3-e920-42f6-b5ce-3da1a978eff7)
 
 
-then open the project with visual studio code
+then 
+
+download and install visual studio code
+
+https://code.visualstudio.com/
+
+the just open the folder containing the project  -> test-interactive-video
+
+open the project with visual studio code
 and open a terminal then run
 
 ```
