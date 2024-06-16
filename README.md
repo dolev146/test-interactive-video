@@ -4,7 +4,21 @@ you also need to have git on your system to clone this project if you are using 
 https://www.git-scm.com/downloads
 ![image](https://github.com/dolev146/test-interactive-video/assets/62290677/f1da67d9-cb69-400d-b2a9-b00a6ffa1d26)
 
-then clone the repository by opening a terminal and in the terminal run 
+then after you download and installed git
+
+open a new folder on you desktop called 
+![image](https://github.com/dolev146/test-interactive-video/assets/62290677/73fa54f4-1269-4cd9-a5b5-ae7b0a07c223)
+
+then opne that folder 
+
+then on folder view delete the path of the folder and write instead "cmd"
+
+![image](https://github.com/dolev146/test-interactive-video/assets/62290677/3238bf92-81e4-44b5-b628-49491aae67dd)
+
+then press enter and a terminal will pop up
+
+then on the terminal past this command
+ 
 ```
 git clone https://github.com/dolev146/test-interactive-video.git
 ```
