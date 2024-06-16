@@ -14,7 +14,7 @@ function App() {
       if (videoPlayer.currentTime >= 3 && videoPlayer.currentTime <= 6) {
         buttons.forEach((button) => button.classList.add("button-visible"));
       } else {
-        buttons.forEach((button) => button.classList.remove("button-faded"));
+        buttons.forEach((button) => button.classList.remove("button-visible"));
       }
     });
 
@@ -26,7 +26,6 @@ function App() {
     const buttons = document.querySelectorAll(
       ".centered-button, .centered-button2, .centered-button3"
     );
-    buttons.forEach((button) => button.classList.add("button-faded"));
     videoContainer.style.opacity = 0;
     // Wait for some time before removing the class, 1 second matches your CSS transition time
     setTimeout(() => {
@@ -49,13 +48,13 @@ function App() {
       >
         <source src="a.mp4" type="video/mp4" />
       </video>
-      <button className="centered-button" onClick={toggleVideo}>
+      <button className="centered-button opacity0" onClick={toggleVideo}>
         Toggle Video
       </button>
-      <button className="centered-button2" onClick={toggleVideo}>
+      <button className="centered-button2 opacity0" onClick={toggleVideo}>
         Toggle Video2
       </button>
-      <button className="centered-button3" onClick={toggleVideo}>
+      <button className="centered-button3 opacity0" onClick={toggleVideo}>
         Toggle Video3
       </button>
     </div>
